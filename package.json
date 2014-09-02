@@ -1,0 +1,28 @@
+{
+  "name": "stenograph-hapi",
+  "version": "1.0.0",
+  "description": "Hapi plugin which adds transaction support using Stenograph",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 100 test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sneekers/stenograph-hapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sneekers/stenograph-hapi/issues"
+  },
+  "homepage": "https://github.com/sneekers/stenograph-hapi",
+  "author": "Jacob Chapel <jacob.chapel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "on-finished": "^2.1.0",
+    "stenograph": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "hapi": "^6.7.1",
+    "lab": "^4.2.0"
+  }
+}
